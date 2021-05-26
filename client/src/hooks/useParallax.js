@@ -6,7 +6,11 @@ const useParallax = (ref, speed = -1, top = 0) => {
     const throttledHandleScroll = throttle(handleScroll, 10)
 
     useEffect(() => {
-        window.addEventListener("scroll", throttledHandleScroll);
+        window.addEventListener("scroll", () => {
+            if(ref.current){
+                throttledHandleScroll()
+            };
+        });
 
         return () => {window.removeEventListener("scroll", throttledHandleScroll)};
     });

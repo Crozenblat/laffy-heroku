@@ -26,6 +26,7 @@ const TourFeed = props => {
                     let hasEvents = getShows.data._embedded;
                     if(hasEvents){
                         let formattedShows = hasEvents.events.map(show => {
+                            console.log(show);
                             return{
                                 name: props.name,
                                 accountImage: props.accountImage,

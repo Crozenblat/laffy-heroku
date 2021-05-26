@@ -87,7 +87,7 @@ const BnnrHeading = styled.h1`
     font-weight: bold;
     font-size: ${props => (
         props.type === "homePage" ? "9vw" :
-        props.type === "comedianPage" && "8vw"
+        props.type === "comedianPage" && "6.8vw"
     )};
     text-transform: capitalize;
     margin-top: 1.4vw;

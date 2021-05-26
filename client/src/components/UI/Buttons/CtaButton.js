@@ -92,8 +92,8 @@ const CtaBtn = styled.button`
 `;
 
 const CtaButton = props => {
-    let link = props.tourDate ? 
-        <StyledExternalLink target="_blank" href={props.link}>{props}</StyledExternalLink> : 
+    let link = props.type === "tourDate" ? 
+        <StyledExternalLink target="_blank" href={props.link}>{props.children}</StyledExternalLink> : 
         <StyledInternalLink to={props.to}>{props.children}</StyledInternalLink>;
 
     return (
