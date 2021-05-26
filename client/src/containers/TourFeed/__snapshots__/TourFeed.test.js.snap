@@ -1,0 +1,1016 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tour Date Container should render correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-AxhUy kNWbAH"
+      >
+        <div
+          class="sc-AxheI jzdBSq"
+        >
+          <svg
+            class="sc-AxgMl bCKtDA"
+            viewBox="0 0 512 512"
+            x="0px"
+            y="0px"
+          >
+            <path
+              d="M256,0C115.2,0,0,115.2,0,256s115.2,256,256,256s256-115.2,256-256S396.8,0,256,0z M256,51.2
+ c28.16,0,48.64,23.04,46.08,51.2L281.6,307.2h-51.2l-20.48-204.8C207.36,74.24,227.84,51.2,256,51.2z M256,460.8
+ c-28.16,0-51.2-23.04-51.2-51.2c0-28.16,23.04-51.2,51.2-51.2s51.2,23.04,51.2,51.2C307.2,437.76,284.16,460.8,256,460.8z"
+            />
+          </svg>
+          New Date!
+        </div>
+        <div
+          class="sc-Axmtr jNroUj"
+        >
+          <div
+            class="sc-AxmLO jwnoix"
+          >
+            <div
+              class="sc-fzozJi isqQvA"
+            >
+              <span
+                class="sc-AxjAm bIGtDT"
+                type="account"
+              />
+              <span
+                class="sc-AxirZ iaUhNE"
+              >
+                Hanibal Buress
+              </span>
+            </div>
+            <button
+              class="sc-AxhCb inVoPr"
+              type="tourDate"
+            >
+              <a
+                class="sc-AxiKw gpmvAq"
+                href=""
+              >
+                Get Tickets!
+              </a>
+            </button>
+          </div>
+          <h3
+            class="sc-fzoLsD ifJBfs"
+          >
+            Baltimore, MD - Vincent Theater
+          </h3>
+          <div
+            class="sc-fzpans cheDBt"
+          >
+            July 28th . 2020
+          </div>
+          <div
+            class="sc-fzpans cheDBt"
+          >
+            Sunday . 8:30pm
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-AxhUy kNWbAH"
+      >
+        <div
+          class="sc-AxheI jzdBSq"
+        >
+          <svg
+            class="sc-AxgMl bCKtDA"
+            viewBox="0 0 512 512"
+            x="0px"
+            y="0px"
+          >
+            <path
+              d="M256,0C115.2,0,0,115.2,0,256s115.2,256,256,256s256-115.2,256-256S396.8,0,256,0z M256,51.2
+ c28.16,0,48.64,23.04,46.08,51.2L281.6,307.2h-51.2l-20.48-204.8C207.36,74.24,227.84,51.2,256,51.2z M256,460.8
+ c-28.16,0-51.2-23.04-51.2-51.2c0-28.16,23.04-51.2,51.2-51.2s51.2,23.04,51.2,51.2C307.2,437.76,284.16,460.8,256,460.8z"
+            />
+          </svg>
+          New Date!
+        </div>
+        <div
+          class="sc-Axmtr jNroUj"
+        >
+          <div
+            class="sc-AxmLO jwnoix"
+          >
+            <div
+              class="sc-fzozJi isqQvA"
+            >
+              <span
+                class="sc-AxjAm bIGtDT"
+                type="account"
+              />
+              <span
+                class="sc-AxirZ iaUhNE"
+              >
+                Hanibal Buress
+              </span>
+            </div>
+            <button
+              class="sc-AxhCb inVoPr"
+              type="tourDate"
+            >
+              <a
+                class="sc-AxiKw gpmvAq"
+                href=""
+              >
+                Get Tickets!
+              </a>
+            </button>
+          </div>
+          <h3
+            class="sc-fzoLsD ifJBfs"
+          >
+            Baltimore, MD - Vincent Theater
+          </h3>
+          <div
+            class="sc-fzpans cheDBt"
+          >
+            July 28th . 2020
+          </div>
+          <div
+            class="sc-fzpans cheDBt"
+          >
+            Sunday . 8:30pm
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-AxhUy kNWbAH"
+      >
+        <div
+          class="sc-AxheI jzdBSq"
+        >
+          <svg
+            class="sc-AxgMl bCKtDA"
+            viewBox="0 0 512 512"
+            x="0px"
+            y="0px"
+          >
+            <path
+              d="M256,0C115.2,0,0,115.2,0,256s115.2,256,256,256s256-115.2,256-256S396.8,0,256,0z M256,51.2
+ c28.16,0,48.64,23.04,46.08,51.2L281.6,307.2h-51.2l-20.48-204.8C207.36,74.24,227.84,51.2,256,51.2z M256,460.8
+ c-28.16,0-51.2-23.04-51.2-51.2c0-28.16,23.04-51.2,51.2-51.2s51.2,23.04,51.2,51.2C307.2,437.76,284.16,460.8,256,460.8z"
+            />
+          </svg>
+          New Date!
+        </div>
+        <div
+          class="sc-Axmtr jNroUj"
+        >
+          <div
+            class="sc-AxmLO jwnoix"
+          >
+            <div
+              class="sc-fzozJi isqQvA"
+            >
+              <span
+                class="sc-AxjAm bIGtDT"
+                type="account"
+              />
+              <span
+                class="sc-AxirZ iaUhNE"
+              >
+                Hanibal Buress
+              </span>
+            </div>
+            <button
+              class="sc-AxhCb inVoPr"
+              type="tourDate"
+            >
+              <a
+                class="sc-AxiKw gpmvAq"
+                href=""
+              >
+                Get Tickets!
+              </a>
+            </button>
+          </div>
+          <h3
+            class="sc-fzoLsD ifJBfs"
+          >
+            Baltimore, MD - Vincent Theater
+          </h3>
+          <div
+            class="sc-fzpans cheDBt"
+          >
+            July 28th . 2020
+          </div>
+          <div
+            class="sc-fzpans cheDBt"
+          >
+            Sunday . 8:30pm
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-AxhUy kNWbAH"
+      >
+        <div
+          class="sc-AxheI jzdBSq"
+        >
+          <svg
+            class="sc-AxgMl bCKtDA"
+            viewBox="0 0 512 512"
+            x="0px"
+            y="0px"
+          >
+            <path
+              d="M256,0C115.2,0,0,115.2,0,256s115.2,256,256,256s256-115.2,256-256S396.8,0,256,0z M256,51.2
+ c28.16,0,48.64,23.04,46.08,51.2L281.6,307.2h-51.2l-20.48-204.8C207.36,74.24,227.84,51.2,256,51.2z M256,460.8
+ c-28.16,0-51.2-23.04-51.2-51.2c0-28.16,23.04-51.2,51.2-51.2s51.2,23.04,51.2,51.2C307.2,437.76,284.16,460.8,256,460.8z"
+            />
+          </svg>
+          New Date!
+        </div>
+        <div
+          class="sc-Axmtr jNroUj"
+        >
+          <div
+            class="sc-AxmLO jwnoix"
+          >
+            <div
+              class="sc-fzozJi isqQvA"
+            >
+              <span
+                class="sc-AxjAm bIGtDT"
+                type="account"
+              />
+              <span
+                class="sc-AxirZ iaUhNE"
+              >
+                Hanibal Buress
+              </span>
+            </div>
+            <button
+              class="sc-AxhCb inVoPr"
+              type="tourDate"
+            >
+              <a
+                class="sc-AxiKw gpmvAq"
+                href=""
+              >
+                Get Tickets!
+              </a>
+            </button>
+          </div>
+          <h3
+            class="sc-fzoLsD ifJBfs"
+          >
+            Baltimore, MD - Vincent Theater
+          </h3>
+          <div
+            class="sc-fzpans cheDBt"
+          >
+            July 28th . 2020
+          </div>
+          <div
+            class="sc-fzpans cheDBt"
+          >
+            Sunday . 8:30pm
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-AxhUy kNWbAH"
+      >
+        <div
+          class="sc-AxheI jzdBSq"
+        >
+          <svg
+            class="sc-AxgMl bCKtDA"
+            viewBox="0 0 512 512"
+            x="0px"
+            y="0px"
+          >
+            <path
+              d="M256,0C115.2,0,0,115.2,0,256s115.2,256,256,256s256-115.2,256-256S396.8,0,256,0z M256,51.2
+ c28.16,0,48.64,23.04,46.08,51.2L281.6,307.2h-51.2l-20.48-204.8C207.36,74.24,227.84,51.2,256,51.2z M256,460.8
+ c-28.16,0-51.2-23.04-51.2-51.2c0-28.16,23.04-51.2,51.2-51.2s51.2,23.04,51.2,51.2C307.2,437.76,284.16,460.8,256,460.8z"
+            />
+          </svg>
+          New Date!
+        </div>
+        <div
+          class="sc-Axmtr jNroUj"
+        >
+          <div
+            class="sc-AxmLO jwnoix"
+          >
+            <div
+              class="sc-fzozJi isqQvA"
+            >
+              <span
+                class="sc-AxjAm bIGtDT"
+                type="account"
+              />
+              <span
+                class="sc-AxirZ iaUhNE"
+              >
+                Hanibal Buress
+              </span>
+            </div>
+            <button
+              class="sc-AxhCb inVoPr"
+              type="tourDate"
+            >
+              <a
+                class="sc-AxiKw gpmvAq"
+                href=""
+              >
+                Get Tickets!
+              </a>
+            </button>
+          </div>
+          <h3
+            class="sc-fzoLsD ifJBfs"
+          >
+            Baltimore, MD - Vincent Theater
+          </h3>
+          <div
+            class="sc-fzpans cheDBt"
+          >
+            July 28th . 2020
+          </div>
+          <div
+            class="sc-fzpans cheDBt"
+          >
+            Sunday . 8:30pm
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-AxhUy kNWbAH"
+      >
+        <div
+          class="sc-AxheI jzdBSq"
+        >
+          <svg
+            class="sc-AxgMl bCKtDA"
+            viewBox="0 0 512 512"
+            x="0px"
+            y="0px"
+          >
+            <path
+              d="M256,0C115.2,0,0,115.2,0,256s115.2,256,256,256s256-115.2,256-256S396.8,0,256,0z M256,51.2
+ c28.16,0,48.64,23.04,46.08,51.2L281.6,307.2h-51.2l-20.48-204.8C207.36,74.24,227.84,51.2,256,51.2z M256,460.8
+ c-28.16,0-51.2-23.04-51.2-51.2c0-28.16,23.04-51.2,51.2-51.2s51.2,23.04,51.2,51.2C307.2,437.76,284.16,460.8,256,460.8z"
+            />
+          </svg>
+          New Date!
+        </div>
+        <div
+          class="sc-Axmtr jNroUj"
+        >
+          <div
+            class="sc-AxmLO jwnoix"
+          >
+            <div
+              class="sc-fzozJi isqQvA"
+            >
+              <span
+                class="sc-AxjAm bIGtDT"
+                type="account"
+              />
+              <span
+                class="sc-AxirZ iaUhNE"
+              >
+                Hanibal Buress
+              </span>
+            </div>
+            <button
+              class="sc-AxhCb inVoPr"
+              type="tourDate"
+            >
+              <a
+                class="sc-AxiKw gpmvAq"
+                href=""
+              >
+                Get Tickets!
+              </a>
+            </button>
+          </div>
+          <h3
+            class="sc-fzoLsD ifJBfs"
+          >
+            Baltimore, MD - Vincent Theater
+          </h3>
+          <div
+            class="sc-fzpans cheDBt"
+          >
+            July 28th . 2020
+          </div>
+          <div
+            class="sc-fzpans cheDBt"
+          >
+            Sunday . 8:30pm
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-AxhUy kNWbAH"
+      >
+        <div
+          class="sc-AxheI jzdBSq"
+        >
+          <svg
+            class="sc-AxgMl bCKtDA"
+            viewBox="0 0 512 512"
+            x="0px"
+            y="0px"
+          >
+            <path
+              d="M256,0C115.2,0,0,115.2,0,256s115.2,256,256,256s256-115.2,256-256S396.8,0,256,0z M256,51.2
+ c28.16,0,48.64,23.04,46.08,51.2L281.6,307.2h-51.2l-20.48-204.8C207.36,74.24,227.84,51.2,256,51.2z M256,460.8
+ c-28.16,0-51.2-23.04-51.2-51.2c0-28.16,23.04-51.2,51.2-51.2s51.2,23.04,51.2,51.2C307.2,437.76,284.16,460.8,256,460.8z"
+            />
+          </svg>
+          New Date!
+        </div>
+        <div
+          class="sc-Axmtr jNroUj"
+        >
+          <div
+            class="sc-AxmLO jwnoix"
+          >
+            <div
+              class="sc-fzozJi isqQvA"
+            >
+              <span
+                class="sc-AxjAm bIGtDT"
+                type="account"
+              />
+              <span
+                class="sc-AxirZ iaUhNE"
+              >
+                Hanibal Buress
+              </span>
+            </div>
+            <button
+              class="sc-AxhCb inVoPr"
+              type="tourDate"
+            >
+              <a
+                class="sc-AxiKw gpmvAq"
+                href=""
+              >
+                Get Tickets!
+              </a>
+            </button>
+          </div>
+          <h3
+            class="sc-fzoLsD ifJBfs"
+          >
+            Baltimore, MD - Vincent Theater
+          </h3>
+          <div
+            class="sc-fzpans cheDBt"
+          >
+            July 28th . 2020
+          </div>
+          <div
+            class="sc-fzpans cheDBt"
+          >
+            Sunday . 8:30pm
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-AxhUy kNWbAH"
+    >
+      <div
+        class="sc-AxheI jzdBSq"
+      >
+        <svg
+          class="sc-AxgMl bCKtDA"
+          viewBox="0 0 512 512"
+          x="0px"
+          y="0px"
+        >
+          <path
+            d="M256,0C115.2,0,0,115.2,0,256s115.2,256,256,256s256-115.2,256-256S396.8,0,256,0z M256,51.2
+ c28.16,0,48.64,23.04,46.08,51.2L281.6,307.2h-51.2l-20.48-204.8C207.36,74.24,227.84,51.2,256,51.2z M256,460.8
+ c-28.16,0-51.2-23.04-51.2-51.2c0-28.16,23.04-51.2,51.2-51.2s51.2,23.04,51.2,51.2C307.2,437.76,284.16,460.8,256,460.8z"
+          />
+        </svg>
+        New Date!
+      </div>
+      <div
+        class="sc-Axmtr jNroUj"
+      >
+        <div
+          class="sc-AxmLO jwnoix"
+        >
+          <div
+            class="sc-fzozJi isqQvA"
+          >
+            <span
+              class="sc-AxjAm bIGtDT"
+              type="account"
+            />
+            <span
+              class="sc-AxirZ iaUhNE"
+            >
+              Hanibal Buress
+            </span>
+          </div>
+          <button
+            class="sc-AxhCb inVoPr"
+            type="tourDate"
+          >
+            <a
+              class="sc-AxiKw gpmvAq"
+              href=""
+            >
+              Get Tickets!
+            </a>
+          </button>
+        </div>
+        <h3
+          class="sc-fzoLsD ifJBfs"
+        >
+          Baltimore, MD - Vincent Theater
+        </h3>
+        <div
+          class="sc-fzpans cheDBt"
+        >
+          July 28th . 2020
+        </div>
+        <div
+          class="sc-fzpans cheDBt"
+        >
+          Sunday . 8:30pm
+        </div>
+      </div>
+    </div>
+    <div
+      class="sc-AxhUy kNWbAH"
+    >
+      <div
+        class="sc-AxheI jzdBSq"
+      >
+        <svg
+          class="sc-AxgMl bCKtDA"
+          viewBox="0 0 512 512"
+          x="0px"
+          y="0px"
+        >
+          <path
+            d="M256,0C115.2,0,0,115.2,0,256s115.2,256,256,256s256-115.2,256-256S396.8,0,256,0z M256,51.2
+ c28.16,0,48.64,23.04,46.08,51.2L281.6,307.2h-51.2l-20.48-204.8C207.36,74.24,227.84,51.2,256,51.2z M256,460.8
+ c-28.16,0-51.2-23.04-51.2-51.2c0-28.16,23.04-51.2,51.2-51.2s51.2,23.04,51.2,51.2C307.2,437.76,284.16,460.8,256,460.8z"
+          />
+        </svg>
+        New Date!
+      </div>
+      <div
+        class="sc-Axmtr jNroUj"
+      >
+        <div
+          class="sc-AxmLO jwnoix"
+        >
+          <div
+            class="sc-fzozJi isqQvA"
+          >
+            <span
+              class="sc-AxjAm bIGtDT"
+              type="account"
+            />
+            <span
+              class="sc-AxirZ iaUhNE"
+            >
+              Hanibal Buress
+            </span>
+          </div>
+          <button
+            class="sc-AxhCb inVoPr"
+            type="tourDate"
+          >
+            <a
+              class="sc-AxiKw gpmvAq"
+              href=""
+            >
+              Get Tickets!
+            </a>
+          </button>
+        </div>
+        <h3
+          class="sc-fzoLsD ifJBfs"
+        >
+          Baltimore, MD - Vincent Theater
+        </h3>
+        <div
+          class="sc-fzpans cheDBt"
+        >
+          July 28th . 2020
+        </div>
+        <div
+          class="sc-fzpans cheDBt"
+        >
+          Sunday . 8:30pm
+        </div>
+      </div>
+    </div>
+    <div
+      class="sc-AxhUy kNWbAH"
+    >
+      <div
+        class="sc-AxheI jzdBSq"
+      >
+        <svg
+          class="sc-AxgMl bCKtDA"
+          viewBox="0 0 512 512"
+          x="0px"
+          y="0px"
+        >
+          <path
+            d="M256,0C115.2,0,0,115.2,0,256s115.2,256,256,256s256-115.2,256-256S396.8,0,256,0z M256,51.2
+ c28.16,0,48.64,23.04,46.08,51.2L281.6,307.2h-51.2l-20.48-204.8C207.36,74.24,227.84,51.2,256,51.2z M256,460.8
+ c-28.16,0-51.2-23.04-51.2-51.2c0-28.16,23.04-51.2,51.2-51.2s51.2,23.04,51.2,51.2C307.2,437.76,284.16,460.8,256,460.8z"
+          />
+        </svg>
+        New Date!
+      </div>
+      <div
+        class="sc-Axmtr jNroUj"
+      >
+        <div
+          class="sc-AxmLO jwnoix"
+        >
+          <div
+            class="sc-fzozJi isqQvA"
+          >
+            <span
+              class="sc-AxjAm bIGtDT"
+              type="account"
+            />
+            <span
+              class="sc-AxirZ iaUhNE"
+            >
+              Hanibal Buress
+            </span>
+          </div>
+          <button
+            class="sc-AxhCb inVoPr"
+            type="tourDate"
+          >
+            <a
+              class="sc-AxiKw gpmvAq"
+              href=""
+            >
+              Get Tickets!
+            </a>
+          </button>
+        </div>
+        <h3
+          class="sc-fzoLsD ifJBfs"
+        >
+          Baltimore, MD - Vincent Theater
+        </h3>
+        <div
+          class="sc-fzpans cheDBt"
+        >
+          July 28th . 2020
+        </div>
+        <div
+          class="sc-fzpans cheDBt"
+        >
+          Sunday . 8:30pm
+        </div>
+      </div>
+    </div>
+    <div
+      class="sc-AxhUy kNWbAH"
+    >
+      <div
+        class="sc-AxheI jzdBSq"
+      >
+        <svg
+          class="sc-AxgMl bCKtDA"
+          viewBox="0 0 512 512"
+          x="0px"
+          y="0px"
+        >
+          <path
+            d="M256,0C115.2,0,0,115.2,0,256s115.2,256,256,256s256-115.2,256-256S396.8,0,256,0z M256,51.2
+ c28.16,0,48.64,23.04,46.08,51.2L281.6,307.2h-51.2l-20.48-204.8C207.36,74.24,227.84,51.2,256,51.2z M256,460.8
+ c-28.16,0-51.2-23.04-51.2-51.2c0-28.16,23.04-51.2,51.2-51.2s51.2,23.04,51.2,51.2C307.2,437.76,284.16,460.8,256,460.8z"
+          />
+        </svg>
+        New Date!
+      </div>
+      <div
+        class="sc-Axmtr jNroUj"
+      >
+        <div
+          class="sc-AxmLO jwnoix"
+        >
+          <div
+            class="sc-fzozJi isqQvA"
+          >
+            <span
+              class="sc-AxjAm bIGtDT"
+              type="account"
+            />
+            <span
+              class="sc-AxirZ iaUhNE"
+            >
+              Hanibal Buress
+            </span>
+          </div>
+          <button
+            class="sc-AxhCb inVoPr"
+            type="tourDate"
+          >
+            <a
+              class="sc-AxiKw gpmvAq"
+              href=""
+            >
+              Get Tickets!
+            </a>
+          </button>
+        </div>
+        <h3
+          class="sc-fzoLsD ifJBfs"
+        >
+          Baltimore, MD - Vincent Theater
+        </h3>
+        <div
+          class="sc-fzpans cheDBt"
+        >
+          July 28th . 2020
+        </div>
+        <div
+          class="sc-fzpans cheDBt"
+        >
+          Sunday . 8:30pm
+        </div>
+      </div>
+    </div>
+    <div
+      class="sc-AxhUy kNWbAH"
+    >
+      <div
+        class="sc-AxheI jzdBSq"
+      >
+        <svg
+          class="sc-AxgMl bCKtDA"
+          viewBox="0 0 512 512"
+          x="0px"
+          y="0px"
+        >
+          <path
+            d="M256,0C115.2,0,0,115.2,0,256s115.2,256,256,256s256-115.2,256-256S396.8,0,256,0z M256,51.2
+ c28.16,0,48.64,23.04,46.08,51.2L281.6,307.2h-51.2l-20.48-204.8C207.36,74.24,227.84,51.2,256,51.2z M256,460.8
+ c-28.16,0-51.2-23.04-51.2-51.2c0-28.16,23.04-51.2,51.2-51.2s51.2,23.04,51.2,51.2C307.2,437.76,284.16,460.8,256,460.8z"
+          />
+        </svg>
+        New Date!
+      </div>
+      <div
+        class="sc-Axmtr jNroUj"
+      >
+        <div
+          class="sc-AxmLO jwnoix"
+        >
+          <div
+            class="sc-fzozJi isqQvA"
+          >
+            <span
+              class="sc-AxjAm bIGtDT"
+              type="account"
+            />
+            <span
+              class="sc-AxirZ iaUhNE"
+            >
+              Hanibal Buress
+            </span>
+          </div>
+          <button
+            class="sc-AxhCb inVoPr"
+            type="tourDate"
+          >
+            <a
+              class="sc-AxiKw gpmvAq"
+              href=""
+            >
+              Get Tickets!
+            </a>
+          </button>
+        </div>
+        <h3
+          class="sc-fzoLsD ifJBfs"
+        >
+          Baltimore, MD - Vincent Theater
+        </h3>
+        <div
+          class="sc-fzpans cheDBt"
+        >
+          July 28th . 2020
+        </div>
+        <div
+          class="sc-fzpans cheDBt"
+        >
+          Sunday . 8:30pm
+        </div>
+      </div>
+    </div>
+    <div
+      class="sc-AxhUy kNWbAH"
+    >
+      <div
+        class="sc-AxheI jzdBSq"
+      >
+        <svg
+          class="sc-AxgMl bCKtDA"
+          viewBox="0 0 512 512"
+          x="0px"
+          y="0px"
+        >
+          <path
+            d="M256,0C115.2,0,0,115.2,0,256s115.2,256,256,256s256-115.2,256-256S396.8,0,256,0z M256,51.2
+ c28.16,0,48.64,23.04,46.08,51.2L281.6,307.2h-51.2l-20.48-204.8C207.36,74.24,227.84,51.2,256,51.2z M256,460.8
+ c-28.16,0-51.2-23.04-51.2-51.2c0-28.16,23.04-51.2,51.2-51.2s51.2,23.04,51.2,51.2C307.2,437.76,284.16,460.8,256,460.8z"
+          />
+        </svg>
+        New Date!
+      </div>
+      <div
+        class="sc-Axmtr jNroUj"
+      >
+        <div
+          class="sc-AxmLO jwnoix"
+        >
+          <div
+            class="sc-fzozJi isqQvA"
+          >
+            <span
+              class="sc-AxjAm bIGtDT"
+              type="account"
+            />
+            <span
+              class="sc-AxirZ iaUhNE"
+            >
+              Hanibal Buress
+            </span>
+          </div>
+          <button
+            class="sc-AxhCb inVoPr"
+            type="tourDate"
+          >
+            <a
+              class="sc-AxiKw gpmvAq"
+              href=""
+            >
+              Get Tickets!
+            </a>
+          </button>
+        </div>
+        <h3
+          class="sc-fzoLsD ifJBfs"
+        >
+          Baltimore, MD - Vincent Theater
+        </h3>
+        <div
+          class="sc-fzpans cheDBt"
+        >
+          July 28th . 2020
+        </div>
+        <div
+          class="sc-fzpans cheDBt"
+        >
+          Sunday . 8:30pm
+        </div>
+      </div>
+    </div>
+    <div
+      class="sc-AxhUy kNWbAH"
+    >
+      <div
+        class="sc-AxheI jzdBSq"
+      >
+        <svg
+          class="sc-AxgMl bCKtDA"
+          viewBox="0 0 512 512"
+          x="0px"
+          y="0px"
+        >
+          <path
+            d="M256,0C115.2,0,0,115.2,0,256s115.2,256,256,256s256-115.2,256-256S396.8,0,256,0z M256,51.2
+ c28.16,0,48.64,23.04,46.08,51.2L281.6,307.2h-51.2l-20.48-204.8C207.36,74.24,227.84,51.2,256,51.2z M256,460.8
+ c-28.16,0-51.2-23.04-51.2-51.2c0-28.16,23.04-51.2,51.2-51.2s51.2,23.04,51.2,51.2C307.2,437.76,284.16,460.8,256,460.8z"
+          />
+        </svg>
+        New Date!
+      </div>
+      <div
+        class="sc-Axmtr jNroUj"
+      >
+        <div
+          class="sc-AxmLO jwnoix"
+        >
+          <div
+            class="sc-fzozJi isqQvA"
+          >
+            <span
+              class="sc-AxjAm bIGtDT"
+              type="account"
+            />
+            <span
+              class="sc-AxirZ iaUhNE"
+            >
+              Hanibal Buress
+            </span>
+          </div>
+          <button
+            class="sc-AxhCb inVoPr"
+            type="tourDate"
+          >
+            <a
+              class="sc-AxiKw gpmvAq"
+              href=""
+            >
+              Get Tickets!
+            </a>
+          </button>
+        </div>
+        <h3
+          class="sc-fzoLsD ifJBfs"
+        >
+          Baltimore, MD - Vincent Theater
+        </h3>
+        <div
+          class="sc-fzpans cheDBt"
+        >
+          July 28th . 2020
+        </div>
+        <div
+          class="sc-fzpans cheDBt"
+        >
+          Sunday . 8:30pm
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
