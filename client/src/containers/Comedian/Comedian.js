@@ -51,6 +51,10 @@ const ComedianImagePosWrppr = styled.span`
         right: 1vw;
     };
 
+    @media only screen and (max-width: 376px){
+        top: 70vw;
+    };
+
     @media only screen and (max-width: 320px){
         top: 85vw;
         right: 3vw;
@@ -60,7 +64,7 @@ const ComedianImagePosWrppr = styled.span`
 const ShareOptionsPosWrppr = styled.span`
     display: flex;
     position: absolute;
-    top: 33vw;
+    top: 33.5vw;
     left: 14vw;
     justify-content: space-between;
     width: 14vw;
@@ -74,9 +78,17 @@ const ShareOptionsPosWrppr = styled.span`
         top: 42vw;
     };
 
+    @media only screen and (max-width: 880px){
+        top: 41vw;
+    };
+
     @media only screen and (max-width: 769px){
         top: 49vw;
         width: 26vw;
+    };
+
+    @media only screen and (max-width: 769px){
+        top: 48vw;
     };
 
     @media only screen and (max-width: 426px){
