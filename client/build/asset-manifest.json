@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8a887827.chunk.css",
+    "main.js": "/static/js/main.72087e76.chunk.js",
+    "main.js.map": "/static/js/main.72087e76.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a06e69b5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a06e69b5.js.map",
+    "static/css/2.d908161c.chunk.css": "/static/css/2.d908161c.chunk.css",
+    "static/js/2.d0fb307b.chunk.js": "/static/js/2.d0fb307b.chunk.js",
+    "static/js/2.d0fb307b.chunk.js.map": "/static/js/2.d0fb307b.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.d908161c.chunk.css.map": "/static/css/2.d908161c.chunk.css.map",
+    "static/css/main.8a887827.chunk.css.map": "/static/css/main.8a887827.chunk.css.map",
+    "static/js/2.d0fb307b.chunk.js.LICENSE.txt": "/static/js/2.d0fb307b.chunk.js.LICENSE.txt",
+    "static/media/HBO-max-logo.098daa08.svg": "/static/media/HBO-max-logo.098daa08.svg",
+    "static/media/comedianPage-banner-img.003de952.jpeg": "/static/media/comedianPage-banner-img.003de952.jpeg",
+    "static/media/facebook-icon.cebbbbea.svg": "/static/media/facebook-icon.cebbbbea.svg",
+    "static/media/homePage-banner-img.882d2337.jpg": "/static/media/homePage-banner-img.882d2337.jpg",
+    "static/media/hulu-logo.69e4a827.svg": "/static/media/hulu-logo.69e4a827.svg",
+    "static/media/magnifying-glass.75493a5b.svg": "/static/media/magnifying-glass.75493a5b.svg",
+    "static/media/netflix-logo.d1d5803e.svg": "/static/media/netflix-logo.d1d5803e.svg",
+    "static/media/prime-video-logo.0d422dbe.svg": "/static/media/prime-video-logo.0d422dbe.svg",
+    "static/media/reddit-icon.dfd3408f.svg": "/static/media/reddit-icon.dfd3408f.svg",
+    "static/media/twitter-icon.16ec4858.svg": "/static/media/twitter-icon.16ec4858.svg",
+    "static/media/youtube-logo.9dce52e4.svg": "/static/media/youtube-logo.9dce52e4.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a06e69b5.js",
+    "static/css/2.d908161c.chunk.css",
+    "static/js/2.d0fb307b.chunk.js",
+    "static/css/main.8a887827.chunk.css",
+    "static/js/main.72087e76.chunk.js"
+  ]
+}
