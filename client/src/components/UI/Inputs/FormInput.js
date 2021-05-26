@@ -29,21 +29,33 @@ const FrmInptInfo = styled.p`
         font-size: 1.5vw;
     };
 
+    @media only screen and (max-width: 769px){
+        font-size: 2vw;
+    };
+
     @media only screen and (max-width: 426px){
-        font-size: 3vw;
+        font-size: 4vw;
     };
 `;
 
 const FrmInpt = styled.input`
     font-size: 1.6vw;
     border-radius: 10px;
+    width: 27vw;
 
-    @media only screen and (max-width: 1024px){
+    @media only screen and (max-width: 1025px){
+        width: 31vw;
         font-size: 2.1vw;
-    }
+    };
+
+    @media only screen and (max-width: 769px){
+        width: 41vw;
+        font-size: 2.1vw;
+    };
 
     @media only screen and (max-width: 426px){
         font-size: 2rem;
+        width: 85vw;
     };
 `;
 
