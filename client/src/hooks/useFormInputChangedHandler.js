@@ -15,13 +15,13 @@ const useFormInputChangedHandler = (event, controlName, controls, setControls) =
 
     switch(errType){
         case "required":
-            errMsg = `*Required: ${controls[controlName].label}`;
+            errMsg = `Required: ${controls[controlName].label}`;
         break;
         case "minLength":
-            errMsg = `*${controls[controlName].label} must be at least 8 characters long`;
+            errMsg = `${controls[controlName].label} must be at least 8 characters long`;
         break;
         case "isUnique":
-            errMsg = "*Current Password and New Password must not match";
+            errMsg = "Current Password and New Password must not match";
         break;
         default:
             errMsg = null

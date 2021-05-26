@@ -12,13 +12,35 @@ import SubmitButton from "../../components/UI/Buttons/SubmitButton";
 const ChngPsswrdFrm = styled.form`
     display: flex;
     flex-direction: column;
+    align-items: center;
     background: white;
     border-radius: 10px;
     width: 40%;
     padding: 0 2rem;
 
+    @media only screen and (max-width: 769px){
+        width: 52%;
+    };
+
     @media only screen and (max-width: 426px){
-        width: 70%;
+        width: 93%;
+    };
+`;
+
+const PsswrdVsbltyTgglPosWrppr = styled.span`
+    align-self: flex-start;
+    margin-left: 6vw; 
+
+    @media only screen and (max-width: 1441px){
+        margin-left: 5.5vw;
+    };
+
+    @media only screen and (max-width: 1025px){
+        margin-left: 3.5vw;
+    };
+
+    @media only screen and (max-width: 426px){
+        margin-left: 0;
     };
 `;
 
@@ -72,13 +94,13 @@ const ChangePasswordForm = props => {
 
         switch(errType){
             case "required":
-                errMsg = `*Required: ${controls[controlName].label}`;
+                errMsg = `Required: ${controls[controlName].label}`;
             break;
             case "minLength":
-                errMsg = `*${controls[controlName].label} must be at least 8 characters long`;
+                errMsg = `${controls[controlName].label} must be at least 8 characters long`;
             break;
             case "isUnique":
-                errMsg = "*Current Password and New Password must not match";
+                errMsg = "Current Password and New Password must not match";
             break;
             default:
                 errMsg = null
@@ -93,11 +115,11 @@ const ChangePasswordForm = props => {
                     value: control[0] === controlName ? event.target.value : control[1].value,
                     errMsg: errType === "isUnique" ? errMsg :
                             control[0] === controlName ? errMsg :
-                            control[1].errMsg === "*Current Password and New Password must not match" ? null : 
+                            control[1].errMsg === "Current Password and New Password must not match" ? null : 
                             control[1].errMsg,
                     isValid: errType === "isUnique" ? isValid : 
                              control[0] === controlName ? isValid : 
-                             control[1].errMsg === "*Current Password and New Password must not match" ? true :
+                             control[1].errMsg === "Current Password and New Password must not match" ? true :
                              control[1].isValid
                 };
             });
@@ -164,7 +186,9 @@ const ChangePasswordForm = props => {
     return(
         <ChngPsswrdFrm>
             {inputs}
-            <PasswordVisibilityToggle click={togglePasswordVisibility} id="changePasswordShowPassword">Show Passwords</PasswordVisibilityToggle>
+            <PsswrdVsbltyTgglPosWrppr>
+                <PasswordVisibilityToggle click={togglePasswordVisibility} id="changePasswordShowPassword">Show Passwords</PasswordVisibilityToggle>
+            </PsswrdVsbltyTgglPosWrppr>
             <SbmtBtnPosWrppr> 
                 <SubmitButton type="changePasswordSubmit" click={onSubmitHandler} disabled={!controls.currentPassword.isValid || !controls.newPassword.isValid}>Change Password</SubmitButton>
             </SbmtBtnPosWrppr>
