@@ -252,7 +252,7 @@ app.post("/login", async (req, res) => {
 
         let fetchedUser = await User.schema.statics.findByCredentials(req.body.username, req.body.password);
         let authToken = await fetchedUser.generateAuthToken();
-        res.cookie("authToken", authToken, {path:"/", httpOnly: true, secure: true});
+        res.cookie("authToken", authToken, {path:"/", httpOnly: true, secure: true, maxAge: 86400000 * 365});
         let body = jwt.verify(authToken, process.env.JWT_SECRET);
         res.send({userId: body.userId, username: body.username});
     } catch(err){
