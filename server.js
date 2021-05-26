@@ -257,19 +257,19 @@ app.post("/login", async (req, res) => {
         res.send({userId: body.userId, username: body.username});
     } catch(err){
         console.log(err)
-        // if(err.message === "Username Not Found"){
-        //     res.status(404).send({
-        //         input: "loginUsername",
-        //         message: err.message
-        //     });
-        // }else if(err.message === "Incorrect Password"){
-        //     res.status(401).send({
-        //         input: "loginPassword",
-        //         message: err.message
-        //     });
-        // }else{
-        //     res.status(400).send(err.message);
-        // };
+        if(err.message === "Username Not Found"){
+            res.status(404).send({
+                input: "loginUsername",
+                message: err.message
+            });
+        }else if(err.message === "Incorrect Password"){
+            res.status(401).send({
+                input: "loginPassword",
+                message: err.message
+            });
+        }else{
+            res.status(400).send(err.message);
+        };
     };
 });
 
