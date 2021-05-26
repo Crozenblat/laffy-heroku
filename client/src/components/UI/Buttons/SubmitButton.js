@@ -43,7 +43,7 @@ const SbmtBtn = styled.button`
 
     @media only screen and (max-width: 376px){
         font-size: ${props => (
-            props.type === "commentSubmit" ? "6.7vw" : "10vw"
+            props.type === "commentSubmit" ? "6.7vw" : "8vw"
         )};
         width: ${props => (
             props.type === "commentSubmit" && "25vw"

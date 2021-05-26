@@ -64,11 +64,15 @@ const ComedianImagePosWrppr = styled.span`
 const ShareOptionsPosWrppr = styled.span`
     display: flex;
     position: absolute;
-    top: 33.5vw;
+    top: 32.5vw;
     left: 14vw;
     justify-content: space-between;
     width: 14vw;
     align-self: flex-start;
+
+    @media only screen and (max-width: 1700px){
+        top: 31.5vw;
+    };
 
     @media only screen and (max-width: 1441px){
         top: 31vw;
@@ -83,7 +87,7 @@ const ShareOptionsPosWrppr = styled.span`
     };
 
     @media only screen and (max-width: 769px){
-        top: 49vw;
+        top: 48.5vw;
         width: 26vw;
     };
 

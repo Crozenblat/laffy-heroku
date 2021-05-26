@@ -80,7 +80,7 @@ const CtaBtn = styled.button`
             return (
                 props.type === "tourDate" ? "5.5vw" :
                 props.type === "loginInvite" ? "6.5vw" :
-                props.type === "banner" && "6.5vw"
+                props.type === "banner" && "5.5vw"
             )
         }};
         padding: ${props => (
