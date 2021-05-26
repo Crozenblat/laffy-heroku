@@ -27,7 +27,7 @@ const TopComedians = props => {
     useEffect(() => {
         (async () => {
             try{
-                let topComedians = await axios.get("http://localhost:3000/comedians/top-comedians", {headers: {Authorization: `Bearer ${accessToken}`}});
+                let topComedians = await axios.get("/comedians/top-comedians", {headers: {Authorization: `Bearer ${accessToken}`}});
                 setContent(topComedians.data.map((comedian, index) => {
                     return <ComedianWindow key={`topComedians-${index}`} name={comedian.name} accountImage={comedian.accountImage} tags={comedian.tags} linkId={comedian._id}/>
                 }));
