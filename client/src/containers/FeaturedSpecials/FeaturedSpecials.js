@@ -33,7 +33,7 @@ const FeaturedSpecials = props => {
                     let divider = index < arr.length - 1 ? <Divider/> : null;
                     return (
                         <Fragment key={`featuredSpecial-${index}`}>
-                            <FeaturedSpecial url={`/comedians/${special.comedianId}`} backgroundImage={special.specialCover} specialTitle={special.specialTitle}/>
+                            <FeaturedSpecial url={`/comedian/${special.comedianId}`} backgroundImage={special.specialCover} specialTitle={special.specialTitle}/>
                             {divider}
                         </Fragment>
                     );

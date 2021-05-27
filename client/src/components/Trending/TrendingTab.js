@@ -69,7 +69,7 @@ const StyledLink = styled(Link)`
 
 const TrendingTab = props => {
     return (
-        <StyledLink to={`/comedians/${props.linkId}`}>
+        <StyledLink to={`/comedian/${props.linkId}`}>
             <TrndngTab trendingIsSidebar={props.isSidebar}>
                     <TrndngComedianWrapper>
                         <AccountImage type="trendingTab" trendingIsSidebar={props.isSidebar} img={props.comedianAccountImage}/>

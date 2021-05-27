@@ -72,7 +72,7 @@ function App() {
           <Route path="/explore" exact>
             <ExplorePage />
           </Route>
-          <Route path="/comedians/:comedianId" exact>
+          <Route path="/comedian/:comedianId" exact>
             <ComedianPage/>
           </Route>
           <Route path="/login" exact>

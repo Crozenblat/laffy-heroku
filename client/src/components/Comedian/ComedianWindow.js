@@ -60,7 +60,7 @@ const ProfileWindow = props => {
     
     return (
         <Window>
-            <StyledLink to={{pathname: `/comedians/${props.linkId}`}}/>
+            <StyledLink to={{pathname: `/comedian/${props.linkId}`}}/>
             <AccountImage type="comedianWindow" img={props.accountImage}/>
             <PerformerName>{props.name}</PerformerName>
             <TgPosWrppr>
