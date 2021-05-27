@@ -47,7 +47,7 @@ const ComedianImagePosWrppr = styled.span`
     };
 
     @media only screen and (max-width: 426px){
-        top: 68vw;
+        top: 66vw;
         right: 1vw;
     };
 
@@ -148,6 +148,8 @@ const Comedian = props => {
             let info = await axios.get(`/comedians/${comedianId}`);
             setComedianInfo(null);
             setComedianInfo(info.data);
+            setSelectedSpecial({});
+            setOpen(false);
             if(location.hash === "#specialInfo"){
                 specialInfoRef.current.scrollIntoView({behavior: "smooth"});
                 setOpen(true);
