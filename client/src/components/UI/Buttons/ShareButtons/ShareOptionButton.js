@@ -72,7 +72,6 @@ const ShareOptionButton = props => {
         }
     }, [props.type]);
 
-    let socialMediaService;
     let btnElement;
 
     switch(props.type){
