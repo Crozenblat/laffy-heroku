@@ -80,7 +80,7 @@ const ShareOptionButton = props => {
             btnElement = <ShrOptnBtnAnmtnWrpper active={props.shareBtnActive}><span data-href={window.location.href}><ShrOptnBtn target="_blank" service={facebookIcon} active={props.shareBtnActive} href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURI(window.location.href)}&amp;src=sdkpreparse`} data-layout="button" data-size="large"/></span></ShrOptnBtnAnmtnWrpper>
         break;
         case "twitter":
-            let twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURI(`Check Out ${props.comedianName} on Laffy!`)}`
+            let twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURI(`Check Out ${props.comedianName} on Laffy!`)}&url=${window.location.href}`
             btnElement = <ShrOptnBtnAnmtnWrpper active={props.shareBtnActive}><a target="_blank" rel="noopener noreferrer" href={twitterUrl}><ShrOptnBtn service={twitterIcon}/></a></ShrOptnBtnAnmtnWrpper>
         break;
         case "reddit":
