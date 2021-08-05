@@ -89,9 +89,10 @@ const ReviewPosWrapper = styled.div`
 
 const WatchBtnPosWrapper = styled.div`
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    width: 90%;
 `;
 
 const StyledPlayer = styled(Player)`

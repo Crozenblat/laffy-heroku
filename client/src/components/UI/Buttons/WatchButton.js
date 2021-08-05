@@ -21,7 +21,7 @@ const WatchBtn = styled.img`
             props.type === "hbo-max" && "#f7f7f7"
         )
     }};
-    margin: 0.3vw 0;
+    margin: 0.3vw;
     height: 3vw;
     width: 48%;
     padding: ${props => {
