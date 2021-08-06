@@ -5,9 +5,14 @@ const InfoMsg = styled.p`
     color: ${props => props.theme.secondaryColor};
     font-style: italic;
     font-size: 2vw;
+    margin-top: -2vw;
 
     @media only screen and (max-width: 1025px){
         font-size: 2.5vw;
+    };
+
+    @media only screen and (max-width: 769px){
+        margin-top: -3vw;
     };
 
     @media only screen and (max-width: 426px){

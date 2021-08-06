@@ -6,6 +6,7 @@ import ErrorMessage from "../../Messages/ErrorMessage";
 
 const ReviewContainer = styled.form`
     display: flex;
+    justify-content: center;
     opacity: ${props => props.open ? 1 : 0};
 `;
 
@@ -69,7 +70,7 @@ const Review = props => {
 
     const handleClick = (index) => {
         if(!userId){
-            setErrMsg(<ErrorMessage>*Must be logged in to rate specials</ErrorMessage>);
+            setErrMsg(<ErrorMessage type="reviewError">*Must be logged in to rate specials</ErrorMessage>);
         }else{
             setSelectedStar(index);
             props.updateSpecialRating(index);

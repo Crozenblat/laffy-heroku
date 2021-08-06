@@ -11,6 +11,10 @@ const TrDteCntnr = styled.div`
     width: 40vw;
     margin-bottom: 1vw;
 
+    @media only screen and (max-width: 768px){
+        width: 57vw;
+    };
+
     @media only screen and (max-width: 426px){
         width: 90vw;
     };
@@ -72,7 +76,7 @@ const TrDtePrfrmr = styled.p`
     margin-left: 1vw;
 
     @media only screen and (max-width: 769px){
-        font-size: 3vw;
+        font-size: 4vw;
     };
 
     @media only screen and (max-width: 426px){
@@ -83,6 +87,10 @@ const TrDtePrfrmr = styled.p`
 const TrDteLctn = styled.p`
     font-size: 2vw;
 
+    @media only screen and (max-width: 769px){
+        font-size: 3vw;
+    };
+
     @media only screen and (max-width: 426px){
         font-size: 4.5vw;
     };
@@ -92,6 +100,10 @@ const TrDteTme = styled.div`
     display: flex;
     font-size: 1.7vw;
 
+    @media only screen and (max-width: 769px){
+        font-size: 2.7vw;
+    };
+    
     @media only screen and (max-width: 426px){
         font-size: 4vw;
     };
@@ -103,6 +115,11 @@ const Divider = styled.span`
     padding: 0.4vw;
     margin: 0.4vw 0.3vw 0 0.3vw;
     align-self: center;
+
+    @media only screen and (max-width: 769px){
+        padding: 0.6vw;
+        margin: 0.7vw 0.7vw 0 0.7vw;
+    };
 
     @media only screen and (max-width: 426px){
         padding: 0.9vw;

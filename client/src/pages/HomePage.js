@@ -42,10 +42,6 @@ const TrendingTabPosWrppr = styled.span`
     };
 
     @media only screen and (max-width: 768px){
-        top: 110vw;
-    };
-
-    @media only screen and (max-width: 426px){
         position: relative;
         top: 0;
         right: 0;

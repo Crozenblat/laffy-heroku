@@ -41,6 +41,8 @@ const AccntImg = styled.span`
     @media only screen and (max-width: 769px){
         padding: ${props => {
             return (
+                props.type === "tourDate" ? "5vw" :
+                props.type === "trendingTab" ? "4vw" :
                 props.type === "comedianBanner" && "15vw"
             )
         }};

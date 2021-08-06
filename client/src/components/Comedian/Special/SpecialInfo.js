@@ -1,4 +1,5 @@
 import React, {useRef} from "react";
+import useMediaQuery from "../../../hooks/useMediaQuery";
 import styled from "styled-components";
 import { Player } from 'video-react';
 import "../../../../node_modules/video-react/dist/video-react.css";
@@ -24,7 +25,7 @@ const SpclInfo = styled.div`
     @media only screen and (max-width: 426px){
         flex-direction: column-reverse;
         align-items: center;
-        height: ${props => props.open ? "129vw" : 0};
+        height: ${props => props.open ? "auto" : 0};
     };
 `;
 
@@ -74,7 +75,7 @@ const SpclTrailerWrppr = styled.div`
 
     @media only screen and (max-width: 426px){
         width: 102.1%;
-        height: 50%;
+        height: ${props => props.hasTrailer ? "54vw" : 0};
     };
 `;
 
@@ -105,6 +106,8 @@ const TrlrSubstitute = styled.img`
 
 const SpecialInfo = props => {
     let playerRef = useRef(null);
+    const [screenWidth] = useMediaQuery();
+    console.log(screenWidth);
     let watchButtons;
     
     if(props.special.specialAvailability){
@@ -115,11 +118,11 @@ const SpecialInfo = props => {
 
     let specialTrailer = props.special.specialTrailer ? 
         <StyledPlayer ref={playerRef} onEnded={() => playerRef.current.load()} src={props.special.specialTrailer} poster={props.special.specialCover} fluid={false} height="100%" width="100%"/> 
-        : <TrlrSubstitute src={props.special.specialCover}/>;
+        : screenWidth > 426 ? <TrlrSubstitute src={props.special.specialCover}/> : null;
 
     return (
         <SpclInfo ref={props.passedRef} open={props.open}>
-            <SpclTrailerWrppr>
+            <SpclTrailerWrppr hasTrailer={props.special.specialTrailer}>
                 {specialTrailer}
             </SpclTrailerWrppr>
             <SpclInfoWrppr>

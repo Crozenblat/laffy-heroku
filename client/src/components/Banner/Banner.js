@@ -113,7 +113,7 @@ const BnnrHeading = styled.h1`
             props.type === "comedianPage" && "10vw"
         )};
         margin-top: ${props => (
-            props.type === "comedianPage" && "11vw"
+            props.type === "comedianPage" && "9vw"
         )};
     };
 `;

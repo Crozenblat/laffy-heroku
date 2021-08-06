@@ -6,9 +6,6 @@ const Footr = styled.footer`
     display: flex;
     justify-content: center;
     background: ${props => props.theme.secondaryColor};
-    position: absolute;
-    left: 0;
-    bottom: -6vw;
 `;
 
 const FootrContentSpacer = styled.div`

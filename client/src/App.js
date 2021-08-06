@@ -87,7 +87,6 @@ function App() {
           <Redirect to="/" />
         </Switch>
         <DeleteAccountModal/>
-        <Footer/>
       </Route>
     </Fragment>
   );
@@ -97,6 +96,7 @@ function App() {
       <ThemedBody>
         {routes}
       </ThemedBody>
+      <Footer/>
     </ThemeProvider>
   );
 }

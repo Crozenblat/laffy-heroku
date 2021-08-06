@@ -67,11 +67,30 @@ const CtaBtn = styled.button`
     @media only screen and (max-width: 769px){
         font-size: ${props => {
             return (
-                props.type === "tourDate" && "2.5vw"
+                props.type === "tourDate" && "3vw"
             )
         }};
+        width: ${props => {
+            return (
+                props.type === "tourDate" && "43vw"
+            )
+        }}; 
         padding: ${props => (
             props.type === "loginInvite" && "0.6vw"
+        )};
+    };
+
+    @media only screen and (max-width: 600px){
+        font-size: ${props => {
+            return (
+                props.type === "banner" && "4vw"
+            );
+        }};
+        padding: ${props => {
+            return (
+                props.type === "banner" && "0.7vw"
+            );
+        }};
         )};
     };
 

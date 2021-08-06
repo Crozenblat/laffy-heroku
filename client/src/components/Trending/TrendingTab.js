@@ -15,6 +15,10 @@ const TrndngTab = styled.div`
     width: ${props => props.trendingIsSidebar ? "25vw" : "51vw"};
     border: solid 1px ${props => props.theme.primaryColor};
 
+    @media only screen and (max-width: 769px){
+        width: 48vw;
+    };
+
     @media only screen and (max-width: 426px){
         width: 90vw;
     };
@@ -29,6 +33,10 @@ const TrndngComedianWrapper = styled.span`
 const TrndngComedianName = styled.span`
     font-size: ${props => props.trendingIsSidebar ? "1.9vw" : "3.5vw"};
     margin-left: 0.5rem;
+
+    @media only screen and (max-width: 769px){
+        font-size: 2.6vw;
+    };
 
     @media only screen and (max-width: 426px){
         font-size: 7vw;
@@ -48,6 +56,10 @@ const TrndngMetricWrapper = styled.span`
 const MetricIcon = styled.svg`
     width: ${props => props.trendingIsSidebar ? "2vw" : "3vw"};
 
+    @media only screen and (max-width: 769px){
+        width: 3.5vw;
+    };
+
     @media only screen and (max-width: 426px){
         width: 7vw;
     };
@@ -57,6 +69,10 @@ const MetricStat = styled.span`
     font-size: 2vw;
     margin-left: 0.5rem;
     margin-top: -0.3rem;
+
+    @media only screen and (max-width: 769px){
+        font-size: 2.5vw;
+    };
 
     @media only screen and (max-width: 426px){
         font-size: 5vw;
